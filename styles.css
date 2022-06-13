@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(HTML22_18/darlington.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-family: myFirstFont;
+}
+div.wrapper {
+    display: grid;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.form-container {
+    border-width: 1px;
+    border-color: #5b5b5b;
+    border-style: solid;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 2px;
+}
+
+legend {
+    text-align: center;
+    color: #5b5b5b;
+}
+
+.form-line-container--buttons {
+    padding-top: 5px;
+    justify-content: center;
+}
+
+#file-upload-button {
+    background-color: #FFEEEE;
+}
+
+select {
+    width: 100%;
+}
+
+body {
+    background-color: #FFEEEE;
+}
+
+#button {
+    width: 100%;
+    background-color: #FFEEEE;
+    border: black solid;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+input[type=datetime-local], input[type=text] {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    right: 8px;
+}
+
+form {
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}

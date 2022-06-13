@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Idealny tort</title>
+        <link rel="icon" type="image/png" href="icon.png">
+        <meta name="author" content="Dominik Dębiński" />
+    
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <form>
+                <h1>Idealny tort</h1>
+            <fieldset class="form-container">
+                <legend>Główna Nuta Smakowa</legend>
+                <div class="form-line-container">
+                    <select id="taste" name="taste">
+                        <optgroup label="Klasyczne">
+                            <option value="Czekolada">Czekolada</option>
+                            <option value="Wanilia">Wanilia</option>
+                            <option value="Karmel">Karmel</option>
+                        <optgroup label="Owocowe">
+                            <option value="Truskawka">Truskawka</option>
+                            <option value="Malina">Malina</option>
+                            <option value="Róża">Róża</option>
+                        <optgroup label="Wytrawne">
+                            <option value="Dynia">Dynia</option>
+                            <option value="Marchew">Marchew</option>
+                            <option selected="selected" value="Fenkuł">Fenkuł</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset class="form-container">
+                <legend>Alergeny</legend>
+                    <input checked="checked" type="checkbox" id="bezglutenowy" name="bezglutenowy" value="Bike">
+                    <label for="bezglutenowy"> Bezglutenowy</label><br>
+                    <input type="checkbox" id="noorzeszki" name="noorzeszki" value="Bez orzeszków ziemnych">
+                    <label for="noorzeszki"> Bez orzeszków ziemnych</label><br>
+                    <input type="checkbox" id="soi" name="soi" value="nosoi">
+                    <label for="soi">Bez soi</label><br>
+                    <input type="checkbox" id="nabial" name="nabial" value="bez nabialu">
+                    <label for="nabial">Bez nabiału</label><br>
+                    <input type="checkbox" id="cukier" name="cukier" value="bez cukru">
+                    <label for="cukier">Bez cukru</label><br>
+                    <input checked="checked" type="checkbox" id="lubin" name="lubin" value="bez lubinu">
+                    <label for="soi">Bez łubinu</label><br>
+            </fieldset>
+            <fieldset class="form-container">
+                <legend>Preferowana data i czas odbioru</legend>
+                <input type="datetime-local" value='2022-06-01T12:00'>
+            </fieldset>
+            <fieldset class="form-container">
+                <legend>Zdjęcie prezentujące styl tortu</legend>
+                <input type="file" id="docpicker">
+            </fieldset>
+            <fieldset class="form-container">
+                <legend>Napis na torcie</legend>
+                <input type="text" id="cake-text" placeholder="100 lat" pattern="[a-zA-Z0-9\s]+" maxlength="20"
+                oninvalid="this.setCustomValidity('Wprowadź nie więcej niż 20 liter, cyfr lub spacji')">
+            </fieldset>
+            <fieldset class="form-line-container--buttons">
+                <legend>Potwierdzenie</legend>
+                <input id="button" type="submit" value="Zamów">
+            </fieldset>
+        </form>
+        </div>
+    
+    </body>
+</html>

@@ -1,0 +1,53 @@
+    Stwórz formularz do zamawiania idealnego tortu
+    
+    Formularz składa się z:
+    1. (1.5 pkt) Listy rozwijanej w której 9 możliwych do wyboru smaków
+       pogrupowanych jest na 3 kategorie (domyślnie wybrany jest Fenkuł)
+    2. (1.5 pkt) Sekcji alergenów umożliwiających wybór dowolnej liczby wykluczeń
+       (kliknięcie na napis również zaznacza / odznacza pole - domyślenie zaznaczony
+       jest `Bezglutenowy` i `Bez łubinu`)
+    3. (1 pkt) Pola z datą i czasem z ustawioną wartością na '1. czerwca 2022 12:00'
+    4. (1 pkt) Pola na przesłanie pliku ze zdjęciem prezentującym pożądany styl tortu,
+       formularz jest skonstruowany w ten sposób, aby umożliwić prawidłowe wysłanie
+       pliku za pomocą protokołu HTTP
+    5. (1.5 pkt) Pola na umieszczenie napisu na torcie,
+        w którym znajduje się podpowiedź 'np. 100 lat' oraz weryfikowana jest poprawność
+        wprowadzonych danych, a w razie niespełnienia warunku prezentowany jest komunikat:
+        'Wprowadź nie więcej niż 20 liter, cyfr lub spacji'
+    
+    Formularz ma następujący wygląd:
+    1. (1 pkt) Składa się z serii wyśrodkowanych sekcji zawierających poszczególne kontrolki
+    2. (1 pkt) Tło i przyciski mają kolor `FFEEEE` a tekst i ramki kolor `5b5b5b`,
+       a jako krój pisma użyta jest Constantia lub czcionka najbardziej do niej podobna
+    3. (1.5 pkt) Wszystkie kontrolki mają równą szerokość,
+        a cały formularz ma co najmniej 200px i nie więcej niż 400px szerokości (nie licząc marginesów)
+    4. (1 pkt) Formularz dobrze prezentuje się na ekranie telefonu komórkowego (zobacz zrzut ekranu z emulatora)
+    5. (1 pkt) Na górze formularza znajduje się tytuł 'Idealny tort' wyświetlony za pomocą dostarczonego kroju `darlington.ttf`
+
+    Przydatne napisy:
+    Idealny tort
+    Klasyczne
+        Czekolada
+        Wanilia
+        Karmel
+    Owocowe
+        Truskawka
+        Malina
+        Róża
+    Wytrawne
+        Dynia
+        Marchew
+        Fenkuł
+
+    Alergeny
+        Bezglutenowy
+        Bez orzeszków ziemnych
+        Bez soi
+        Bez nabiału
+        Bez cukru
+        Bez łubinu
+    Preferowana data i czas odbioru
+    Zdjęcie prezentujące styl tortu
+    Napis na torcie np. 100 lat Wprowadź nie więcej niż 20 liter, cyfr lub spacji                       
+    Potwierdzenie
+    Zamów
